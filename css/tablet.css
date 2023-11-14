@@ -1,0 +1,51 @@
+@media (max-width: 992px) {
+  /* Banner */
+  .banner {
+    height: 30vh;
+  }
+  /* Navbar */
+  .img-navbar {
+    display: none;
+  }
+  .name-stack {
+    width: 15vh;
+  }
+
+  /* Property */
+  .property {
+    grid-template-columns: repeat(2, 45%);
+  }
+  .container-property1 {
+    flex-direction: column;
+    grid-column: 1/2;
+  }
+  #container-information-job1 {
+    width: 100%;
+  }
+  .container-property2 {
+    flex-direction: column;
+    grid-column: 2/3;
+  }
+  #container-information-job2 {
+    width: 100%;
+  }
+  .height1 {
+    height: auto;
+  }
+  .height2 {
+    height: auto;
+  }
+
+  /* Certificate */
+  .certificate-title {
+    justify-content: flex-start;
+  }
+
+  /* Project */
+  .project-container {
+    grid-template-columns: repeat(3, 28%);
+  }
+  .icon-developer {
+    padding-left: 44px;
+  }
+}

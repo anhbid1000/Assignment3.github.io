@@ -1,0 +1,98 @@
+@media (max-width: 992px) {
+  .total-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  /* Goal */
+  .goal {
+    grid-column: 1/-1;
+    grid-template-rows: auto repeat(3, 1fr);
+  }
+  .goal-content {
+    flex-direction: column;
+    gap: 0;
+    font-size: 13px;
+    height: fit-content;
+  }
+  .goal-content:last-child {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .icon1 {
+    align-self: center;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  /* Scopes */
+  .scopes {
+    grid-row: 2/3;
+  }
+  .in-out {
+    width: 92%;
+    font-size: 13px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .text4 {
+    gap: 10px;
+  }
+  .text4:last-child {
+    margin-bottom: 40px;
+  }
+  /* Team */
+  .team {
+    grid-template-rows: auto repeat(4, 1fr);
+    gap: 10px;
+  }
+  .member {
+    font-size: 13px;
+    flex-direction: column;
+    gap: 0;
+  }
+  .icon2 {
+    font-size: 30px;
+  }
+  .text2 {
+    align-self: flex-start;
+  }
+  .member:last-child {
+    margin-bottom: 20px;
+  }
+  /* Primary */
+  .primary {
+    grid-template-rows: auto repeat(2, 1fr);
+  }
+  .priority {
+    font-size: 13px;
+  }
+  .text5 {
+    flex-direction: column;
+    gap: 0;
+  }
+  .text5:last-child {
+    margin-bottom: 30px;
+  }
+
+  /* Timeline */
+  .timeline {
+    grid-column: auto;
+    grid-row: 5/6;
+    grid-template-rows: auto 1fr;
+  }
+  .time-project {
+    grid-template-rows: repeat(7, 1fr) 0.25fr;
+    font-size: 13px;
+  }
+  .project {
+    flex-direction: column;
+    gap: 0;
+  }
+  .number {
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+  .text3 {
+    align-self: flex-start;
+    width: 100%;
+  }
+}

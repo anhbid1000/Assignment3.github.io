@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+  /* Title */
+  .title {
+    width: 90%;
+  }
+  /* Goal */
+
+  .goal-content {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text1 {
+    padding-right: 0;
+  }
+  /* Scopes */
+  .in-out {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* Team */
+  .member {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* Primary */
+  .priority {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .icon3 {
+    padding-bottom: 0;
+  }
+  /* Timeline */
+  .project {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .number {
+    margin-left: 0;
+  }
+  .text3 {
+    padding-left: 0;
+  }
+}

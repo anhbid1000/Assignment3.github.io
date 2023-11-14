@@ -1,0 +1,104 @@
+@media (max-width: 576px) {
+  /* Banner */
+  .banner {
+    height: 20vh;
+  }
+  /* Navbar */
+  .nav-bar {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-center;
+  }
+  .name-stack {
+    width: 0;
+    height: 0;
+  }
+  .link {
+    width: 100%;
+  }
+  .link-same {
+    border: none;
+  }
+  .link-same:last-child {
+    border: none;
+  }
+
+  /* Goal and information */
+  .goal-information {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .target {
+    padding-top: 20px;
+  }
+  .information {
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* Property */
+  .property {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+  .container-property1 {
+    grid-column: 1/-1;
+  }
+  .container-property2 {
+    grid-column: 1/-1;
+  }
+  /* Certificate */
+  .container3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr repeat(3, 2fr);
+  }
+  .certificate-image {
+    grid-column: 1/-1;
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-certificate {
+    width: 70vw;
+    height: auto;
+  }
+  .certificate-text {
+    align-self: flex-start;
+    padding-left: 65px;
+  }
+  .certificate-title {
+    font-size: 0px;
+    margin-top: 0;
+    align-self: center;
+  }
+  #certificate-title {
+    font-size: 30px !important;
+  }
+  .certificate-image:nth-child(2) {
+    justify-self: start;
+  }
+  .certificate-image:nth-child(2)::after {
+    width: 0;
+  }
+  .certificate-image:nth-child(3) {
+    padding: 0;
+  }
+  /* Project */
+  .container4 {
+    margin-top: 20px;
+  }
+  .DUAN {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .project-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 20px;
+  }
+  .project {
+    font-size: 15px;
+  }
+}
